@@ -1,1 +1,0 @@
-python train_eval_evgcn.py --dataset ADNI --num_classes 2 --train 1
