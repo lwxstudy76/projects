@@ -20,9 +20,9 @@ This code has been tested using `Pytorch` on a NVIDIA GeForce RTX 3090.
 ```
 or run
 ```
-python train_eval_evgcn.py --dataset ABIDE --num_classes 2 --train 1
-python train_eval_evgcn.py --dataset ADNI --num_classes 2 --train 1
-python train_eval_evgcn.py --dataset ODIR --num_classes 8 --train 1
+python train_eval_evgcn.py --dataset ABIDE --type Degree --num_classes 2 --train 1
+python train_eval_evgcn.py --dataset ADNI --type Degree --num_classes 2 --train 1
+python train_eval_evgcn.py --dataset ODIR --type Degree --num_classes 8 --train 1
 ```
 
 
